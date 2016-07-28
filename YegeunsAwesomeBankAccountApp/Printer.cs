@@ -8,11 +8,15 @@ namespace YegeunsAwesomeBankAccountApp
 {
     class Printer
     {
-
-        Program p = new Program();
-        Console.WriteLine("your balance is:" +p.GetBalance);
-        Console.WriteLine("your balance is:" -p.GetBalance);
-        Console.WriteLine("your balance is:" GetBalance);
+        public void PrintBalance(BankAccount AccountBalance)
+        {
+            double Balance = AccountBalance.GetBalance();
+            Console.WriteLine("You have " + Balance + " in you bank account");
+   
+         
+                      
+            
+        }
  
  
  

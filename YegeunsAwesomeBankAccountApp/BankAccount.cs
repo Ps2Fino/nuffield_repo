@@ -8,28 +8,35 @@ namespace YegeunsAwesomeBankAccountApp
 {
     class BankAccount
     {
-        public double GetBalance = 100;
+        public double Balance = 100;
 
         public double GetBalance()
         {
-            return balance;
+            return Balance;
         }
+
         public double Deposit(double amount)
         {
-            this.GetBalance += amount;
+            this.Balance += amount;
 
-            this.message("Depoosit succesfull");
-            return true;
+            return Balance;
         }
 
 
-        public double Withdraw()
+        public double Withdraw(double amount)
         {
-            this.GetBalance -= amount;
-            this.message("Withdraw succesful");
-            return true;
+            
+            if (Balance >= amount)
+            {
+                Balance -= amount;
+                
+            }
+
+            
+            return Balance;
 
         }
+
 
 
 

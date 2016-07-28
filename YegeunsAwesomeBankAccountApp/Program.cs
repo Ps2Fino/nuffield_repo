@@ -26,6 +26,36 @@ namespace YegeunsAwesomeBankAccountApp
              * 
              * Console.WriteLine("......");
              */
+
+            // This instantiaes the printer and bank account
+            Printer ThePrinter = new Printer();
+            BankAccount BankBalance = new BankAccount();
+
+            //This prints out the balnce of the current money in the bank account
+            ThePrinter.PrintBalance(BankBalance);
+
+            // This deposits money into the bank account
+
+            double DepositMoney = 1000;
+            BankBalance.Deposit(DepositMoney);
+
+            ThePrinter.PrintBalance(BankBalance);
+            
+            //this withdraws money out of the bank account
+            double WithdrawMoney = 90;
+            BankBalance.Withdraw(WithdrawMoney);
+
+            ThePrinter.PrintBalance(BankBalance);
+            
+            //This withdraws too much so you can't over draft. 
+            double WithdrawTooMuch = 100000000;
+            BankBalance.Withdraw(WithdrawTooMuch);
+
+            
+
+
+
+
         }
     }
 }
