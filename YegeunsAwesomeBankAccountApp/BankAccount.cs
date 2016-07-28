@@ -8,6 +8,36 @@ namespace YegeunsAwesomeBankAccountApp
 {
     class BankAccount
     {
+        public double GetBalance = 100;
+
+        public double GetBalance()
+        {
+            return balance;
+        }
+        public double Deposit(double amount)
+        {
+            this.GetBalance += amount;
+
+            this.message("Depoosit succesfull");
+            return true;
+        }
+
+
+        public double Withdraw()
+        {
+            this.GetBalance -= amount;
+            this.message("Withdraw succesful");
+            return true;
+
+        }
+
+
+
+
+
+
+
+
         /**
          * My job is to:
          * 1) Print information about the actual account
@@ -16,3 +46,4 @@ namespace YegeunsAwesomeBankAccountApp
          */
     }
 }
+

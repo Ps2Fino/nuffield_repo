@@ -4,3 +4,6 @@ C:\Users\Barebones\Documents\Unity-Projects\AR-Sandbox-2016\AR-Sandbox-HandTrack
 C:\Users\Barebones\Documents\Unity-Projects\AR-Sandbox-2016\AR-Sandbox-HandTracker\YegeunsAwesomeBankAccountApp\YegeunsAwesomeBankAccountApp\obj\Debug\YegeunsAwesomeBankAccountApp.csprojResolveAssemblyReference.cache
 C:\Users\Barebones\Documents\Unity-Projects\AR-Sandbox-2016\AR-Sandbox-HandTracker\YegeunsAwesomeBankAccountApp\YegeunsAwesomeBankAccountApp\obj\Debug\YegeunsAwesomeBankAccountApp.exe
 C:\Users\Barebones\Documents\Unity-Projects\AR-Sandbox-2016\AR-Sandbox-HandTracker\YegeunsAwesomeBankAccountApp\YegeunsAwesomeBankAccountApp\obj\Debug\YegeunsAwesomeBankAccountApp.pdb
+C:\Users\Impact\Documents\Nuffield\nuffield_repo\YegeunsAwesomeBankAccountApp\bin\Debug\YegeunsAwesomeBankAccountApp.exe.config
+C:\Users\Impact\Documents\Nuffield\nuffield_repo\YegeunsAwesomeBankAccountApp\obj\Debug\YegeunsAwesomeBankAccountApp.exe
+C:\Users\Impact\Documents\Nuffield\nuffield_repo\YegeunsAwesomeBankAccountApp\obj\Debug\YegeunsAwesomeBankAccountApp.pdb
