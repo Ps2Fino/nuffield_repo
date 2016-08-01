@@ -14,20 +14,23 @@ namespace YegeunsAwesomeBankAccountApp
 
             Console.WriteLine("You have " + Balance + " in you bank account");
 
-      
-            Console.Write("Press w to withdraw d to depsit and c to check balance ");
+          
 
-            if (w)
+            Console.Write("Press w to withdraw d to depsit and c to check balance ");
+            int w = (int)Console.Read();
+            if (int.(w))
             {
-                Console.Write("You want to withdraw. How much would you like to withdraw?");
+                if (int.(w)) 
+            {
+               Console.WriteLine("You want to withdraw. How much would you like to withdraw?");
 
                 Console.Read();
 
-                int t;
+                double t;
 
-                t = int.Parse(Console.ReadLine());
+                t = .Parse(Console.ReadLine());
             }
-            if (d) 
+            if (int.d) 
             {
                 Console.Write("You want to deposit. How much would you like to deposit?");
 
@@ -43,9 +46,9 @@ namespace YegeunsAwesomeBankAccountApp
                 Console.Write("You don't have enought money on this account");
 
             }
-            if (c)
+            if (int.c)
             {
-                string c;
+                int c;
 
                 Console.Write(" Here is you balance " + AccountBalance);
 

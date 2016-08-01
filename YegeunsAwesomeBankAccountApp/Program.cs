@@ -36,20 +36,18 @@ namespace YegeunsAwesomeBankAccountApp
 
             // This deposits money into the bank account
 
-            double DepositMoney = 1000;
+            double DepositMoney = p;
             BankBalance.Deposit(DepositMoney);
 
             ThePrinter.PrintBalance(BankBalance);
             
             //this withdraws money out of the bank account
-            double WithdrawMoney = 90;
+            double WithdrawMoney = t;
             BankBalance.Withdraw(WithdrawMoney);
 
             ThePrinter.PrintBalance(BankBalance);
             
-            //This withdraws too much so you can't over draft. 
-            double WithdrawTooMuch = 100000000;
-            BankBalance.Withdraw(WithdrawTooMuch);
+           
 
             
 
