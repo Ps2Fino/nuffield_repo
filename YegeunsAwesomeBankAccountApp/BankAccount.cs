@@ -8,39 +8,42 @@ namespace YegeunsAwesomeBankAccountApp
 {
     class BankAccount
     {
-        public decimal Balance = 100;
+        public double Balance = 100;
 
-        public decimal GetBalance
+        public double GetBalance()
         {
-            get { return this.Balance; }
-            set { this.Balance = value; }
+            return Balance;
+        }
+        //{
+        //    get { return this.Balance; }
+        //    set { this.Balance = value; }
+        //}
+
+        //public decimal Deposit { get; set; }
+        //public decimal Withdraw { get; set; }
+
+
+        public double Deposit(double amount)
+        {
+            this.Balance += amount;
+
+            return Balance;
         }
 
-        public decimal Deposit { get; set; }
-        public decimal Withdraw { get; set; }
+
+        public double Withdraw(double amount)
+        {
+
+            if (Balance >= amount)
+            {
+                Balance -= amount;
+
+            }
 
 
-        /* public double Deposit(double amount)
-         {
-             this.Balance += amount;
+            return Balance;
 
-             return Balance;
-         }
-
-
-         public double Withdraw(double amount)
-         {
-
-             if (Balance >= amount)
-             {
-                 Balance -= amount;
-
-             }
-
-
-             return Balance; */
-
-    }
+        }
 
 
 
