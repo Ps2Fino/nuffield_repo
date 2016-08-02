@@ -8,49 +8,54 @@ namespace YegeunsAwesomeBankAccountApp
 {
     class BankAccount
     {
-        public double Balance = 100;
+        public decimal Balance = 100;
 
-        public double GetBalance()
+        public decimal GetBalance
         {
-            return Balance;
+            get { return this.Balance; }
+            set { this.Balance = value; }
         }
 
-        public double Deposit(double amount)
-        {
-            this.Balance += amount;
-
-            return Balance;
-        }
+        public decimal Deposit { get; set; }
+        public decimal Withdraw { get; set; }
 
 
-        public double Withdraw(double amount)
-        {
-            
-            if (Balance >= amount)
-            {
-                Balance -= amount;
-                
-            }
+        /* public double Deposit(double amount)
+         {
+             this.Balance += amount;
 
-            
-            return Balance;
-
-        }
+             return Balance;
+         }
 
 
+         public double Withdraw(double amount)
+         {
+
+             if (Balance >= amount)
+             {
+                 Balance -= amount;
+
+             }
 
 
+             return Balance; */
 
-
-
-
-
-        /**
-         * My job is to:
-         * 1) Print information about the actual account
-         * 2) Add money into acccout
-         * 3) Subtract money from the account (remember to check if enough funds available!!)
-         */
     }
+
+
+
+
+
+
+
+
+
+    /**
+     * My job is to:
+     * 1) Print information about the actual account
+     * 2) Add money into acccout
+     * 3) Subtract money from the account (remember to check if enough funds available!!)
+     */
+}
 }
 

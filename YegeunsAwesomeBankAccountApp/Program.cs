@@ -26,13 +26,13 @@ namespace YegeunsAwesomeBankAccountApp
 
             // This deposits money into the bank account
 
-            double DepositMoney = p;
+            double DepositMoney = ;
             BankBalance.Deposit(DepositMoney);
 
             ThePrinter.PrintBalance(BankBalance);
             
             //this withdraws money out of the bank account
-            double WithdrawMoney = t;
+            double WithdrawMoney = ;
             BankBalance.Withdraw(WithdrawMoney);
 
             ThePrinter.PrintBalance(BankBalance);

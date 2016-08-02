@@ -8,19 +8,31 @@ namespace YegeunsAwesomeBankAccountApp
 {
     class Printer
     {
-        public void PrintBalance(BankAccount AccountBalance)
-        {
-            double Balance = AccountBalance.GetBalance();
+        public void PrintBalance(BankAccount AccountBalance);
 
-            Console.WriteLine("You have " + Balance + " in you bank account");
+        //double Balance = Balance();
 
-          
+        //Console.WriteLine("You have " + Balance + " in you bank account");
 
-            Console.Write("Press w to withdraw d to depsit and c to check balance ");
-            int w = (int)Console.Read();
-            if (int.(w))
-            {
-                if (int.(w)) 
+        //Console.WriteLine("Press 1 to check balance /n2. 2 to depsit /n3. 3 to withdraw ");
+
+        //int userInput = int.Parse(Console.ReadLine());
+
+        //switch (userInput)
+
+        //{
+        //    case 1:
+        //        Console.WriteLine(Balance);
+        //    case 2:
+
+
+
+
+
+        Console.WriteLine("Press 1 to check balance /n2. 2 to depsit /n3. 3 to withdraw ");
+
+        string userValue = Console.ReadLine();
+         if (userValue == "1")
             {
                Console.WriteLine("You want to withdraw. How much would you like to withdraw?");
 
@@ -30,7 +42,7 @@ namespace YegeunsAwesomeBankAccountApp
 
                 t = .Parse(Console.ReadLine());
             }
-            if (int.d) 
+            if (userValue == "2")
             {
                 Console.Write("You want to deposit. How much would you like to deposit?");
 
@@ -46,7 +58,7 @@ namespace YegeunsAwesomeBankAccountApp
                 Console.Write("You don't have enought money on this account");
 
             }
-            if (int.c)
+              if (userValue == "3")
             {
                 int c;
 
