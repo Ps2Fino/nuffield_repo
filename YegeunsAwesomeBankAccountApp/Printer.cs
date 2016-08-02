@@ -14,21 +14,6 @@ namespace YegeunsAwesomeBankAccountApp
 
         Console.WriteLine("You have " + Balance + " in you bank account");
 
-        //Console.WriteLine("Press 1 to check balance /n2. 2 to depsit /n3. 3 to withdraw ");
-
-        //int userInput = int.Parse(Console.ReadLine());
-
-        //switch (userInput)
-
-        //{
-        //    case 1:
-        //        Console.WriteLine(Balance);
-        //    case 2:
-
-
-
-
-
         Console.WriteLine("Press 1 to withdraw /n2. 2 to deposit /n3. 3 to checkblance ");
 
         string userValue = Console.ReadLine();
@@ -42,7 +27,7 @@ namespace YegeunsAwesomeBankAccountApp
 
                 t = .Parse(Console.ReadLine());
             }
-            if (userValue == "2")
+            else if (userValue == "2")
             {
                 Console.Write("You want to deposit. How much would you like to deposit?");
 
@@ -58,7 +43,7 @@ namespace YegeunsAwesomeBankAccountApp
                 Console.Write("You don't have enought money on this account");
 
             }
-              if (userValue == "3")
+              else if (userValue == "3")
             {
                 int c;
 
@@ -68,6 +53,20 @@ namespace YegeunsAwesomeBankAccountApp
                 
  
         }
+    }
+}
+
+
+        //Console.WriteLine("Press 1 to check balance /n2. 2 to depsit /n3. 3 to withdraw ");
+
+        //int userInput = int.Parse(Console.ReadLine());
+
+        //switch (userInput)
+
+        //{
+        //    case 1:
+        //        Console.WriteLine(Balance);
+        //    case 2:
 
  
  
