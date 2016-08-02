@@ -14,57 +14,56 @@ namespace YegeunsAwesomeBankAccountApp
 
             Console.WriteLine("You have " + Balance + " in you bank account");
 
-
+          
 
             Console.Write("Press w to withdraw d to depsit and c to check balance ");
             int w = (int)Console.Read();
             if (int.(w))
             {
-                if (int.(w))
-                {
-                    Console.WriteLine("You want to withdraw. How much would you like to withdraw?");
+                if (int.(w)) 
+            {
+               Console.WriteLine("You want to withdraw. How much would you like to withdraw?");
 
-                    Console.Read();
+                Console.Read();
 
-                    double t;
+                double t;
 
-                    t = .Parse(Console.ReadLine());
-                }
-                if (int.d)
-                {
-                    Console.Write("You want to deposit. How much would you like to deposit?");
+                t = .Parse(Console.ReadLine());
+            }
+            if (int.d) 
+            {
+                Console.Write("You want to deposit. How much would you like to deposit?");
 
 
-                    Console.Read();
+                Console.Read();
 
-                    int p;
+                int p;
 
-                    p = int.Parse(Console.ReadLine());
+                p = int.Parse(Console.ReadLine());
 
                 else
 
                 Console.Write("You don't have enought money on this account");
 
-                }
-                if (int.c)
-                {
-                    int c;
-
-                    Console.Write(" Here is you balance " + AccountBalance);
-
-
-                }
-
             }
+            if (int.c)
+            {
+                int c;
 
+                Console.Write(" Here is you balance " + AccountBalance);
 
-
-
-            /**
-             * This class should take a BankAccount instance
-             * as a paramater to all of its methods
-             * and print information about the account
-             */
+                
+           }                    
+ 
         }
+ 
+ 
+ 
+ 
+        /**
+         * This class should take a BankAccount instance
+         * as a paramater to all of its methods
+         * and print information about the account
+         */
     }
 }

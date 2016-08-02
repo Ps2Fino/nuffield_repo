@@ -10,6 +10,14 @@ namespace YegeunsAwesomeBankAccountApp
     {
         static void Main(string[] args)
         {
+            {
+                ConsoleKeyInfo cki;
+                {
+                    cki = Console.ReadKey();
+                }
+                while (cki.Key != ConsoleKey.Escape) ;
+
+            }
             Printer ThePrinter = new Printer();
             BankAccount BankBalance = new BankAccount();
 
@@ -29,6 +37,6 @@ namespace YegeunsAwesomeBankAccountApp
 
             ThePrinter.PrintBalance(BankBalance);
 
-        } while (escape.key != Consolekey.Escape);
+        } 
     }
 }
