@@ -10,9 +10,9 @@ namespace YegeunsAwesomeBankAccountApp
     {
         public void PrintBalance(BankAccount AccountBalance);
 
-        //double Balance = Balance();
+        double Balance = Balance();
 
-        //Console.WriteLine("You have " + Balance + " in you bank account");
+        Console.WriteLine("You have " + Balance + " in you bank account");
 
         //Console.WriteLine("Press 1 to check balance /n2. 2 to depsit /n3. 3 to withdraw ");
 
@@ -29,7 +29,7 @@ namespace YegeunsAwesomeBankAccountApp
 
 
 
-        Console.WriteLine("Press 1 to check balance /n2. 2 to depsit /n3. 3 to withdraw ");
+        Console.WriteLine("Press 1 to withdraw /n2. 2 to deposit /n3. 3 to checkblance ");
 
         string userValue = Console.ReadLine();
          if (userValue == "1")
@@ -64,11 +64,12 @@ namespace YegeunsAwesomeBankAccountApp
 
                 Console.Write(" Here is you balance " + AccountBalance);
 
+            }
                 
-           }                    
  
         }
  
+}    
  
  
  
@@ -77,5 +78,4 @@ namespace YegeunsAwesomeBankAccountApp
          * as a paramater to all of its methods
          * and print information about the account
          */
-    }
-}
+    
