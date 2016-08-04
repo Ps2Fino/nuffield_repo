@@ -14,13 +14,7 @@ namespace YegeunsAwesomeBankAccountApp
         {
             return Balance;
         }
-        //{
-        //    get { return this.Balance; }
-        //    set { this.Balance = value; }
-        //}
-
-        //public decimal Deposit { get; set; }
-        //public decimal Withdraw { get; set; }
+ 
 
 
         public double Deposit(double amount)
